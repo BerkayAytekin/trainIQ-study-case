@@ -1,0 +1,97 @@
+.teams {
+  width: 80%;
+  background-color: wheat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px 30px;
+  .teamsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    p {
+      font-family: "Reddit Mono", monospace;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .infoContainer {
+    .teamsInfo {
+      width: 100%;
+      background-color: rgba(228, 144, 65, 0.351);
+      height: auto;
+      box-sizing: border-box;
+      padding: 30px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: center;
+      .newTeam {
+        border: none;
+        height: 30px;
+        width: 150px;
+        background-color: rgb(28, 53, 53);
+        border-radius: 5px;
+        cursor: pointer;
+        color: wheat;
+      }
+      .newTeam:hover {
+        background-color: rgb(119, 96, 126);
+        border: 2px solid black;
+      }
+      div {
+        overflow: hidden;
+        white-space: unset;
+        margin-bottom: 20px;
+        background-color: rgb(223, 159, 116);
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 15px;
+        .tableHeader {
+          box-sizing: border-box;
+          padding: 10px;
+          height: 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .newEmployee {
+            border: none;
+            height: 30px;
+            width: 150px;
+            background-color: rgb(28, 53, 53);
+            border-radius: 5px;
+            cursor: pointer;
+            color: wheat;
+          }
+          .newEmployee:hover {
+            background-color: blanchedalmond;
+            color: black;
+            border: 1px solid black;
+          }
+        }
+        h3 {
+          color: black;
+          font-weight: 300;
+        }
+        th {
+          text-align: center;
+          font-weight: 1000;
+        }
+        td {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
